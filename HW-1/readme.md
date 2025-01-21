@@ -20,7 +20,7 @@ VS Code is a versitile desktop app where you can create codes for websites, web 
 
 ### <ins>Version Control, Git, & GitHub</ins>
 
-Brief description of understanding. Use any combination of markdown techniques. Should be more than 2 sentences.
+I'm not super familiar with this stuff, but I think I'm getting the gist?
 
 ### <ins>Markdown & Documentation</ins>
 
