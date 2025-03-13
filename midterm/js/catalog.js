@@ -1,4 +1,4 @@
-//Ref to DOM
+//DOM Ref
 const catalogRef = document.querySelector("#catalog");
 
 //Data
