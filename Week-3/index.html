@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 3</title>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="moreforms.html">More Forms</a>
+            </li>
+        </ul>
+    </nav>
+
+    <h1>Containers and Forms</h1>
+
+    <form action="https://wp.zybooks.com/form-viewer.php" method="get">
+        <div>
+            <label for="favoriteSnack">Favorite Snack:</label>
+            <input type="text" name="favoriteSnack" id="favoriteSnack" placeholder="Popcorn" required>
+        </div>
+
+        <div>
+            <label for="leastFavoriteSnack">Least Favorite Snack</label>
+            <input type="text" name="leastFavoriteSnack" id="leastFavoriteSnack" placeholder="Bit-O-Honey">
+        </div>
+
+        <div>
+            <label for="explain">Explain Your Chocies</label>
+            <textarea name="explain" id="explain" placeholder="Explain yourself" cols="50" rows="5"></textarea>
+        </div>
+
+        <div>
+            <label for="snackColorMood">Snack Color Mood</label>
+            <input type="color" name="snackColorMood" id="snackColorMood">
+        </div>
+
+        <div>
+            <label for="snackPic">Snack Pic</label>
+            <input type="file" accept="image/*">
+        </div>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>

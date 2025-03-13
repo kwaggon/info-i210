@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+body {
+  background-color: ivory;
+}
+
+nav {
+  background-color: maroon;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+
+  height: 50px;
+  list-style: none;
+}
+
+nav ul li a {
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+}
+
+body > ul {
+  margin-left: 16px;
+}
+
+main {
+  padding: 20px;
+}
+
+.journey {
+  padding: 20px;
+}
+
+p {
+  padding: 20px;
+}
