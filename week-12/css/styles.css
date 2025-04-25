@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+nav a:hover {
+  text-decoration: 5px underline;
+  text-decoration-style: wavy;
+  text-underline-offset: 3px;
+}
+
+section#dreams {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.dream {
+  border: 2px solid black;
+  height: 200px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.dream p {
+  margin-top: auto;
+}
+
+.dream .heart {
+  font-size: 40px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.dream .edit {
+  padding: 4px;
+}

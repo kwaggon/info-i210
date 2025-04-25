@@ -1,0 +1,41 @@
+p {
+  margin-bottom: 16px;
+}
+
+nav ul {
+  background-color: palevioletred;
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+#story {
+  height: 400px;
+  width: 600px;
+  background-color: pink;
+
+  display: flex;
+  flex-direction: column-reverse;
+  overflow-y: scroll;
+}
+
+#story p {
+  border: 1px solid rgb(32, 1, 1);
+  color: rgb(32, 1, 1);
+  padding: 4px 0;
+  margin-bottom: 4px;
+  background-color: palevioletred;
+}
+
+.form {
+  display: grid;
+  width: 600px;
+  grid-template-columns: 2fr 1fr;
+}
